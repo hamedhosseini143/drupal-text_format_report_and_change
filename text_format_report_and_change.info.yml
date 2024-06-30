@@ -1,0 +1,9 @@
+name: 'text format report and change'
+type: module
+description: 'custom create person'
+package: custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:node
+  - drupal:views
+  - drupal:bulk_update_fields
